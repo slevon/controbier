@@ -41,7 +41,7 @@ extern unsigned int duff_beer[0x44C];
 //UTFT myGLCD(ITDB32S,19,18,17,16);   // Remember to change the model parameter to suit your display module!
 
 // Uncomment the next line for Arduino Mega
-UTFT myGLCD(SSD1963,38,39,40,41);   // Remember to change the model parameter to suit your display module!
+UTFT myGLCD(SSD1289,38,39,40,41);   // Remember to change the model parameter to suit your display module!
 
 RFileIO file;
 

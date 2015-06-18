@@ -90,8 +90,8 @@ void RFileIO::openRecipe(int numOfFile,STEP* steps){
      break;
    }
    
-   steps[i].value =(byte) line.substring(line.indexOf("\t")+1).toInt();
-   Serial.print(steps[i].type);Serial.print("|"); Serial.println(steps[i].value);
+   steps[i].temp =(byte) line.substring(line.indexOf("\t")+1).toInt();
+   Serial.print(steps[i].type);Serial.print("|"); Serial.println(steps[i].temp);
    i++;
    if(i>= MAX_NUM_OF_STEPS){
      break;
